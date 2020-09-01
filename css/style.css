@@ -1,0 +1,116 @@
+.nav {
+  font-family: tipografia-general; }
+
+.nav-item:hover,
+.nav-item:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em); }
+
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover); }
+
+@media only screen and (max-width: 667px) {
+  body {
+    background-color: #E0EDB3; }
+  .consulta-carne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end; }
+  .video-consulta {
+    align-items: flex-start;
+    display: flex;
+    padding: 10px; }
+  .grid-quienes {
+    /*grid en quienes somos*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "imagenUno imagenUno imagenUno"  "texto texto texto" "imagenDos imagenDos imagenDos" "imagenTres imagenTres imagenTres" "textodos textodos textodos" "imagenCuatro imagenCuatro imagenCuatro" "cuerpo02 cuerpo02 cuerpo02"; }
+  .grid-quienes img {
+    height: 400px;
+    width: 500px; }
+  .grid-quienes .texto {
+    height: 400px;
+    width: 500px; }
+  .cuerpo01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start; }
+  .img-compost {
+    align-items: flex-start;
+    display: flex;
+    padding: 10px; } }
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #EBDCAD; }
+  .consulta-carne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start; }
+  .video-consulta {
+    align-items: flex-end;
+    display: flex;
+    padding: 20px 20px 20px 20px; }
+  /*Compost*/
+  .cuerpo01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .cuerpo01 .img-compost {
+      padding: 10px; }
+    .cuerpo01 .text-compost {
+      justify-content: flex-end;
+      padding: 10px; }
+  .video-compost {
+    padding: 10px; }
+  .img-ejemplo-compost {
+    padding: 10px; } }
+
+.cabeza01 h1 {
+  color: #74832F;
+  background-image: url("https://cobcm.net/wp-content/uploadssite3/sites/3/2018/11/papel-pintado-hojas-500x500.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2, h3 {
+  color: #577E04;
+  text-align: center;
+  font-family: tipografia-general;
+  font-size: 30px; }
+
+.vegetarianismo, .consulta-carne, .tipo-dietas p {
+  font-size: 20px; }
+
+ul li {
+  font-family: tipografia-secundaria;
+  font-size: 20px; }
+
+.pies {
+  font-weight: bold;
+  font-size: 20px; }
+
+.pies02 p {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #987E54;
+  border-color: green; }
+
+/*Quienes-somos grid*/
+.imagen-gpeace {
+  padding: 20px 20px 20px 20px; }
+
+footer {
+  background: #E5D6C4;
+  padding: 50px; }
+  footer h2 {
+    color: #A8A43E; }

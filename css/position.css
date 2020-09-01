@@ -1,0 +1,192 @@
+body {
+	position: relative;
+}
+.cabeza01 h1{
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.cabeza02 nav{ 
+	flex-basis: width;
+}
+ .nav{
+ 	display: flex;
+ }
+
+/* contenedor padre video y tabla*/
+.cuerpo02 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: stretch;
+	padding: auto;
+}
+
+.consulta-carne {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-content: stretch;
+}
+.video-consulta{
+	padding: 40px 20px 20px 40px;
+	align-items: left;
+
+}
+.pies {
+	display: flex;
+	justify-content: flex-end;
+	align-items: right;
+}
+
+.grid-quienes {
+	/*grid en quienes somos*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 5px;
+	grid-template-areas:
+		"imagenUno texto imagenDos"
+		"imagenTres textodos imagenCuatro"
+		"cuerpo02 cuerpo02 cuerpo02";
+	align-content: space-around;
+}
+
+.fotoUno {
+	grid-area: imagenUno;
+
+}
+
+.parrafo {
+	grid-area: texto;
+}
+
+.fotoDos {
+	grid-area: imagenDos;
+}
+
+.fotoTres {
+	grid-area: imagenTres;
+}
+
+.parrafoDos {
+	grid-area: textodos;
+}
+
+.fotoCuatro {
+	grid-area: imagenCuatro;
+}
+
+.cuerpo02 {
+	grid-area: cuerpo02;
+}
+
+.footer00 {
+	grid-area: footer;
+}
+
+/*contenedor padre y hijo compost */
+.cuerpo01{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+} 
+.img-compost{
+	display: flex;
+	padding: 20px,
+	justify-content:flex-end;
+}
+.text-compost{
+	display: flex;
+	padding: auto;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+.video-compost {
+	padding: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: right;
+}
+.img-ejemplo-compost{
+	justify-content: flex-start;
+    flex-direction: left;
+    padding: 20px;	   
+}
+ iframe{
+	position: relative;
+}
+/*Flexbox Lombrices*/
+.contenedor-lombriz{
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	align-items: center;
+}
+.img-lombriz {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: right;
+	padding: 20px;
+}
+
+.reproduccion-lombriz{
+	align-content: space-between;
+	align-items: center;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.img-reproduccion {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: right;
+	height: 300px;
+	width: 400px;
+}
+
+
+#edit{
+  width: 50px;
+  height:50px;
+  position:relative;
+  top: 30px; bottom: 40px; left: 0;   
+  right:0; margin: 50px ;
+} 
+#circulo{
+	
+   opacity: 1;
+   transition: 1.2s;
+   -wenkit-transition: 1.2s;
+   -moz-transition: 1.2s;
+   -o-transition: 1.2s;
+   -ms-transition: 1.2s;
+   }
+#edit:hover{
+   cursor: pointer;
+   }
+#edit:hover #circulo{
+   opacity: 0;
+   }
+ .hijo3{
+ 	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	align-items: center;
+ }
+ .animation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+ }  
+
+.map-site{
+	display: flex;
+	align-content: flex-start;
+	p {
+		align-items: flex-end;
+		flex-direction: rigth;
+		padding: 20px;
+	}
+	}

@@ -1,0 +1,65 @@
+@charset 'utf-8';
+
+@import "header";
+@import "media";
+
+
+$tipografia-general: 'Tinos', serif;
+$tipografia-alternativa: 'NotoSerif-BoldItalic'; 
+h2{
+	@if $tipografia-general == h1 {
+		font-family: tipografia-general;
+	} @else if $tipografia-general == h2 {
+		font-family: tipografia-secundaria;
+	}
+}
+
+.cabeza01 h1{
+	color: #74832F;
+	background-image: url("https://cobcm.net/wp-content/uploadssite3/sites/3/2018/11/papel-pintado-hojas-500x500.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 40px; 
+	text-align: center;
+	text-transform: uppercase;
+}
+h2, h3{
+color: #577E04;
+	text-align: center;
+	font-family: tipografia-general;
+	font-size: 30px;
+}
+.vegetarianismo, .consulta-carne, .tipo-dietas p{
+	font-size: 20px;	
+} 
+
+ul {
+	 li{
+		font-family: tipografia-secundaria;
+		font-size: 20px;
+			}
+	}
+.pies {
+	font-weight: bold;
+	font-size: 20px;
+		}
+
+.pies02 p{
+	 display: flex;
+	 font-size: 20px;
+	 font-weight: bold;
+	 background-color: #987E54;
+	 border-color: green;
+	}
+
+/*Quienes-somos grid*/
+.imagen-gpeace {
+	padding: 20px 20px 20px 20px;
+}
+footer{
+	background:#E5D6C4;
+	padding: 50px;
+	h2{
+		color: #A8A43E;
+	}
+}

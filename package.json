@@ -1,0 +1,18 @@
+{
+  "name": "pruebasass",
+  "version": "1.0.0",
+  "description": "prueba clase sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilosSCSS.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "valentina",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^14.7.0",
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10"
+  }
+}
