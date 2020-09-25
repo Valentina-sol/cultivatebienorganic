@@ -22,18 +22,6 @@
     align-items: flex-start;
     display: flex;
     padding: 10px; }
-  .grid-quienes {
-    /*grid en quienes somos*/
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "imagenUno imagenUno imagenUno"  "texto texto texto" "imagenDos imagenDos imagenDos" "imagenTres imagenTres imagenTres" "textodos textodos textodos" "imagenCuatro imagenCuatro imagenCuatro" "cuerpo02 cuerpo02 cuerpo02"; }
-  .grid-quienes img {
-    height: 400px;
-    width: 500px; }
-  .grid-quienes .texto {
-    height: 400px;
-    width: 500px; }
   .cuerpo01 {
     display: flex;
     flex-direction: column;
@@ -105,12 +93,6 @@ ul li {
   background-color: #987E54;
   border-color: green; }
 
-/*Quienes-somos grid*/
-.imagen-gpeace {
-  padding: 20px 20px 20px 20px; }
-
-footer {
-  background: #E5D6C4;
-  padding: 50px; }
-  footer h2 {
-    color: #A8A43E; }
+.courusel-inner img {
+  width: 100%;
+  heigth: 100%; }
