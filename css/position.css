@@ -40,8 +40,8 @@ body {
 	align-items: right;
 }
 
-.grid-quienes {
-	/*grid en quienes somos*/
+/* .grid-quienes {
+	
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -84,8 +84,8 @@ body {
 
 .footer00 {
 	grid-area: footer;
-}
-
+} */
+ 
 /*contenedor padre y hijo compost */
 .cuerpo01{
 	display: flex;
